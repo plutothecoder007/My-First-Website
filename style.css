@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    padding: 0px;
+    background-color: #1f2937;
+    justify-content: space-around;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+}
+
+.logo {
+    filter: invert(1);
+    display: flex;
+    flex-shrink: 0;
+}
+
+ul {
+    display: flex;
+    font-family: Roboto;
+    list-style: none;
+    gap: 16px;
+}
+
+a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    display: flex;
+}
