@@ -1,8 +1,13 @@
+* {
+    font-family: "Roboto";
+}
+
 .header {
     display: flex;
     padding: 0px;
     background-color: #1f2937;
     justify-content: space-around;
+    align-items: center;
 }
 
 body {
@@ -17,9 +22,9 @@ body {
     flex-shrink: 0;
 }
 
+
 ul {
     display: flex;
-    font-family: Roboto;
     list-style: none;
     gap: 16px;
 }
@@ -30,6 +35,90 @@ a {
     color: white;
 }
 
-.links {
+/* .about is a container */
+.about {
     display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    padding: 72px;
+    gap: 48px;
+
+
 }
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.img-container {
+    display: inline-flex;
+}
+
+.txt {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.txt#main {
+    font-size: 48px;
+    color: #e5e7eb;
+    font-weight: 900;
+}
+
+/* .my-button {
+    background-color: #3882f6;
+    border-radius: 7px;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    width: 200px;
+    height: 35px;
+    display: flex;
+} */
+
+
+.my-button {
+  display: flex;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.my-button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.my-button:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+/*
